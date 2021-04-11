@@ -2,11 +2,11 @@ import './App.css';
 import { useState, useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import styled from 'styled-components';
-import Category from '../components/Category';
-import fetchCategories from '../api/fetchCategories';
-import store from '../reducers/store';
-import { incrementOffset, filterByName } from '../actions/action';
-import Pagination from '../components/Pagination';
+import Category from '../components/Category.js';
+import fetchCategories from '../api/fetchCategories.js';
+import store from '../reducers/store.js';
+import { incrementOffset, filterByName } from '../actions/action.js';
+import Pagination from '../components/Pagination.js';
 
 const SearchBarContainer = styled.div`
 display: flex;
