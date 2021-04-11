@@ -12,9 +12,7 @@ const filterReducer = (state = initialState, action) => {
     case FILTER_BY_NAME:
       value = action.name.toLowerCase();
       if (value) {
-        console.log('This is the data', charData);
         filtered = charData.filter((char) => char.strCategory.toLowerCase().includes(value));
-        console.log('This is the value', filtered);
       } else {
         filtered = [];
       }
