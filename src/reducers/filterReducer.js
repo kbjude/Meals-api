@@ -1,4 +1,4 @@
-import { FILTER_BY_NAME } from '../actions/action.js';
+import { FILTER_BY_NAME } from '../actions/action';
 
 const initialState = {
   filteredChars: [],
