@@ -6,7 +6,7 @@ import fetchMealIngredients from '../api/fetchMealIngredients';
 import Ingredient from '../components/Ingredient';
 
 function Ingredients({ match }) {
-  const { ingredient } = useSelector(state => state);
+  const { ingredient } = useSelector((state) => state);
 
   const dispatch = useDispatch();
   useEffect(() => {
@@ -15,7 +15,7 @@ function Ingredients({ match }) {
 
   return (
     <>
-      {ingredient.ingredients && ingredient.ingredients.map(ingredient => (
+      {ingredient.ingredients && ingredient.ingredients.map((ingredient) => (
         <Ingredient
           key={ingredient.idMeal}
           id={ingredient.idMeal}

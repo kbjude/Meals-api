@@ -5,8 +5,8 @@ import PropTypes from 'prop-types';
 import { fetchMealDetails } from '../api/fetchMeals';
 import MealDetail from '../components/MealDetails';
 
-function mealDetalsContainer({ match }) {
-  const { mealDetails } = useSelector(state => state);
+function MealDetalsContainer({ match }) {
+  const { mealDetails } = useSelector((state) => state);
 
   const dispatch = useDispatch();
   useEffect(() => {
@@ -14,7 +14,7 @@ function mealDetalsContainer({ match }) {
   }, []);
   return (
     <>
-      {mealDetails.details && mealDetails.details.map(meal => (
+      {mealDetails.details && mealDetails.details.map((meal) => (
         <MealDetail
           key={meal.idMeal}
           meal={meal}
@@ -24,9 +24,9 @@ function mealDetalsContainer({ match }) {
   );
 }
 
-mealDetalsContainer.propTypes = {
+MealDetalsContainer.propTypes = {
   match: PropTypes.shape(
     { params: PropTypes.shape({ id: PropTypes.string.isRequired }).isRequired },
   ).isRequired,
 };
-export default mealDetalsContainer;
+export default MealDetalsContainer;

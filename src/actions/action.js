@@ -68,7 +68,7 @@ export function fetchMealIngredientsSuccess(ingredients) {
   };
 }
 
-export const fetchMealIngredientsError = error => ({
+export const fetchMealIngredientsError = (error) => ({
   type: FETCH_INGREDIENT_ERROR,
   error,
 });
@@ -84,12 +84,12 @@ export function fetchMealDetailsSuccess(details) {
   };
 }
 
-export const fetchMealDetailsError = error => ({
+export const fetchMealDetailsError = (error) => ({
   type: FETCH_MEAL_DETAILS_ERROR,
   error,
 });
 
-export const incrementOffset = increase => ({
+export const incrementOffset = (increase) => ({
   type: INCREMENT_OFFSET,
   increase,
 });

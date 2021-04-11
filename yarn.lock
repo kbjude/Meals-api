@@ -11258,7 +11258,7 @@
   "resolved" "https://registry.npmjs.org/stylelint-config-recommended/-/stylelint-config-recommended-3.0.0.tgz"
   "version" "3.0.0"
 
-"stylelint-config-standard@^20.0.0":
+"stylelint-config-standard@20.0.x":
   "integrity" "sha512-IB2iFdzOTA/zS4jSVav6z+wGtin08qfj+YyExHB3LF9lnouQht//YyB0KZq9gGz5HNPkddHOzcY8HsUey6ZUlA=="
   "resolved" "https://registry.npmjs.org/stylelint-config-standard/-/stylelint-config-standard-20.0.0.tgz"
   "version" "20.0.0"
@@ -11272,7 +11272,7 @@
   dependencies:
     "css-tree" "^1.0.0"
 
-"stylelint-scss@^3.17.2":
+"stylelint-scss@3.17.x":
   "integrity" "sha512-e0dmxqsofy/HZj4urcGSJw4S6yHDJxiQdT20/1ciCsd5lomisa7YM4+Qtt1EG4hsqEG1dbEeF855tec1UyqcSA=="
   "resolved" "https://registry.npmjs.org/stylelint-scss/-/stylelint-scss-3.17.2.tgz"
   "version" "3.17.2"
@@ -11283,7 +11283,7 @@
     "postcss-selector-parser" "^6.0.2"
     "postcss-value-parser" "^4.1.0"
 
-"stylelint@^13.3.3":
+"stylelint@13.3.x":
   "integrity" "sha512-j8Oio2T1YNiJc6iXDaPYd74Jg4zOa1bByNm/g9/Nvnq4tDPsIjMi46jhRZyPPktGPwjJ5FwcmCqIRlH6PVP8mA=="
   "resolved" "https://registry.npmjs.org/stylelint/-/stylelint-13.3.3.tgz"
   "version" "13.3.3"

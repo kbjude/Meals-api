@@ -14,7 +14,7 @@ list-style-type: none;`;
 const PaginationItem = styled.li`
 border-width: 2px;
 border-style: solid;
-border-bottom-color: ${props => (props.currentPage === props.number ? '#ec1d24' : 'none')};
+border-bottom-color: ${(props) => (props.currentPage === props.number ? '#ec1d24' : 'none')};
 margin: 0.2rem;
 font-family: 'Roboto Condensed', sans-serif;
 `;
@@ -27,7 +27,7 @@ cursor: pointer;
   color: #ec1d24;
 }`;
 
-const Pagination = props => {
+const Pagination = (props) => {
   const {
     charsPerPage, totalChars, paginate, currentPage,
   } = props;
@@ -38,7 +38,7 @@ const Pagination = props => {
   }
   return (
     <PaginationContainer>
-      {pageNumbers.map(number => (
+      {pageNumbers.map((number) => (
         <PaginationItem
           key={number}
           currentPage={currentPage}

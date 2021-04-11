@@ -47,7 +47,7 @@ border-bottom: 3px solid black;
 `;
 
 function App() {
-  const { category, offset, filter } = useSelector(state => state);
+  const { category, offset, filter } = useSelector((state) => state);
   const dispatch = useDispatch();
   const [currentPage, setCurrentPage] = useState(1);
   const [isActive, setActive] = useState(false);
@@ -74,12 +74,12 @@ function App() {
   const sortedCharInfo = charInfo.sort((a, b) => a.strCategory.localeCompare(b.strCategory));
   const currentChars = sortedCharInfo.slice(indexOfFirstChar, indexOfLastChar);
 
-  const filterByInput = e => {
+  const filterByInput = (e) => {
     const input = e.target.value;
     dispatch(filterByName(input, charInfo));
   };
 
-  const paginate = pageNumber => {
+  const paginate = (pageNumber) => {
     setCurrentPage(pageNumber);
     setActive(!isActive);
   };
@@ -87,12 +87,12 @@ function App() {
   return (
     <>
       <SearchBarContainer>
-        <SearchBar onChange={e => { filterByInput(e); }} type="text" placeholder="SEARCH BY NAME" />
+        <SearchBar onChange={(e) => { filterByInput(e); }} type="text" placeholder="SEARCH BY NAME" />
       </SearchBarContainer>
       {
           filteredChars && filteredChars.length > 0 && (
             <SearchResults>
-                {filteredChars.map(category => (
+                {filteredChars.map((category) => (
                   <Category
                     key={category.idCategory}
                     id={category.idCategory}
@@ -104,7 +104,7 @@ function App() {
             </SearchResults>
           )
         }
-      {currentChars.map(category => (
+      {currentChars.map((category) => (
         <Category
           key={category.idCategory}
           id={category.idCategory}

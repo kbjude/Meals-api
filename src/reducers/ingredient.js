@@ -30,6 +30,6 @@ export function ingredientsReducer(state = initialState, action) {
   }
 }
 
-export const getIngredients = state => state.ingredients;
-export const getIngredientsPending = state => state.pending;
-export const getIngredientsError = state => state.error;
+export const getIngredients = (state) => state.ingredients;
+export const getIngredientsPending = (state) => state.pending;
+export const getIngredientsError = (state) => state.error;

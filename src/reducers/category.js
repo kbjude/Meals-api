@@ -30,6 +30,6 @@ export function categoriesReducer(state = initialState, action) {
   }
 }
 
-export const getCategories = state => state.categories;
-export const getCategoriesPending = state => state.pending;
-export const getCategoriesError = state => state.error;
+export const getCategories = (state) => state.categories;
+export const getCategoriesPending = (state) => state.pending;
+export const getCategoriesError = (state) => state.error;

@@ -30,6 +30,6 @@ export function mealDetailsReducer(state = initialState, action) {
   }
 }
 
-export const getMealDetails = state => state.details;
-export const getMealDetailssPending = state => state.pending;
-export const getMealDetailsError = state => state.error;
+export const getMealDetails = (state) => state.details;
+export const getMealDetailssPending = (state) => state.pending;
+export const getMealDetailsError = (state) => state.error;
