@@ -51,7 +51,6 @@
     "eslint-plugin-react": "^7.20.6",
     "eslint-plugin-react-hooks": "^2.5.1",
     "stylelint": "13.3.x",
-    "stylelint-config-standard": "20.0.x",
     "stylelint-csstree-validator": "^1.9.0",
     "stylelint-scss": "3.17.x"
   }

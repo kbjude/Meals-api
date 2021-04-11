@@ -11253,18 +11253,6 @@
     "postcss" "^7.0.0"
     "postcss-selector-parser" "^3.0.0"
 
-"stylelint-config-recommended@^3.0.0":
-  "integrity" "sha512-F6yTRuc06xr1h5Qw/ykb2LuFynJ2IxkKfCMf+1xqPffkxh0S09Zc902XCffcsw/XMFq/OzQ1w54fLIDtmRNHnQ=="
-  "resolved" "https://registry.npmjs.org/stylelint-config-recommended/-/stylelint-config-recommended-3.0.0.tgz"
-  "version" "3.0.0"
-
-"stylelint-config-standard@20.0.x":
-  "integrity" "sha512-IB2iFdzOTA/zS4jSVav6z+wGtin08qfj+YyExHB3LF9lnouQht//YyB0KZq9gGz5HNPkddHOzcY8HsUey6ZUlA=="
-  "resolved" "https://registry.npmjs.org/stylelint-config-standard/-/stylelint-config-standard-20.0.0.tgz"
-  "version" "20.0.0"
-  dependencies:
-    "stylelint-config-recommended" "^3.0.0"
-
 "stylelint-csstree-validator@^1.9.0":
   "integrity" "sha512-fVbtWDEWzux/bZSPBk9tD/bvyc8bSmb52BvUDjcduOzXqKqOyFHUvFayVr9ic88l8KJEVV0Ujab9ah5oTdX4Uw=="
   "resolved" "https://registry.npmjs.org/stylelint-csstree-validator/-/stylelint-csstree-validator-1.9.0.tgz"
