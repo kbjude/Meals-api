@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Display snapshot renders correctly a snapshot 1`] = `
+Array [
+  <div
+    className="sc-hKwCoD hgYXKh"
+  >
+    <input
+      className="sc-eCImvq jMYRuX"
+      onChange={[Function]}
+      placeholder="SEARCH BY NAME"
+      type="text"
+    />
+  </div>,
+  <ul
+    className="sc-bdvvaa fawLKJ"
+  />,
+]
+`;
